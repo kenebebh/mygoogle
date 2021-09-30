@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 html, body{
-    max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
+     height: 100%;
 }
 body{
   font-family: 'Roboto', sans-serif;
     background-color: white;
-    height: 100vh;
+    position: relative;
 }
 
 /* everything navbar */
@@ -195,6 +196,8 @@ footer{
     padding: 5px;
     margin: 0;
     color: gray;
+    position: absolute;
+    bottom: 0;
 }
 #line{
     border-bottom: 1px solid black;
